@@ -128,9 +128,9 @@ index 7057d3f149..3fedb4f543 100644
 +    build_file = "BUILD.local_arm_compiler",
 +)
 +
- http_archive(
+ new_http_archive(
      name = "inception_v1",
-     build_file = "//:models.BUILD",
+     build_file = "models.BUILD",
 diff --git a/tools/local_arm_compiler/BUILD b/tools/local_arm_compiler/BUILD
 new file mode 100644
 index 000000000..ccddd6d50
