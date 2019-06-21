@@ -29,5 +29,5 @@ WORKDIR /root
 RUN git clone https://github.com/rcownie/tensorflow-on-arm/
 
 WORKDIR /root/tensorflow-on-arm/build_tensorflow/
-RUN git checkout v1.11.0
+RUN git checkout rcownie1
 CMD ["/bin/bash"]
